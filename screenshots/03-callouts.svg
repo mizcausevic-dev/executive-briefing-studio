@@ -1,0 +1,9 @@
+<svg width="1440" height="900" viewBox="0 0 1440 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1440" height="900" fill="#0B1020"/>
+  <rect x="40" y="34" width="1360" height="832" rx="32" fill="#10162C" stroke="#29324D"/>
+  <text x="94" y="108" fill="#8FDBFF" font-family="Arial, sans-serif" font-size="22" letter-spacing="6">EXECUTIVE CALLOUTS</text>
+  <text x="94" y="176" fill="#F4EAD7" font-family="Georgia, serif" font-size="56" font-weight="700">What changed. Why it matters. What to do next.</text>
+  <rect x="94" y="264" width="454" height="436" rx="26" fill="#162234" stroke="#29324D"/>
+  <rect x="574" y="264" width="352" height="436" rx="26" fill="#251C35" stroke="#29324D"/>
+  <rect x="952" y="264" width="352" height="436" rx="26" fill="#301B2A" stroke="#29324D"/>
+</svg>

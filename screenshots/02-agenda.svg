@@ -1,0 +1,15 @@
+<svg width="1440" height="900" viewBox="0 0 1440 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1440" height="900" fill="#0B1020"/>
+  <rect x="40" y="34" width="1360" height="832" rx="32" fill="#10162C" stroke="#29324D"/>
+  <text x="94" y="108" fill="#8FDBFF" font-family="Arial, sans-serif" font-size="22" letter-spacing="6">AGENDA SPINE</text>
+  <text x="94" y="176" fill="#F4EAD7" font-family="Georgia, serif" font-size="56" font-weight="700">Three briefing modules designed to guide the room.</text>
+  <rect x="94" y="250" width="390" height="536" rx="26" fill="#171E38" stroke="#29324D"/>
+  <rect x="526" y="250" width="410" height="536" rx="26" fill="#171E38" stroke="#29324D"/>
+  <rect x="978" y="250" width="328" height="536" rx="26" fill="#171E38" stroke="#29324D"/>
+  <rect x="126" y="286" width="124" height="42" rx="20" fill="#2A3353"/>
+  <rect x="558" y="286" width="118" height="42" rx="20" fill="#2A3353"/>
+  <rect x="1010" y="286" width="92" height="42" rx="20" fill="#2A3353"/>
+  <text x="160" y="314" fill="#D9E4FF" font-family="Arial, sans-serif" font-size="18">Revenue</text>
+  <text x="591" y="314" fill="#D9E4FF" font-family="Arial, sans-serif" font-size="18">Growth</text>
+  <text x="1038" y="314" fill="#D9E4FF" font-family="Arial, sans-serif" font-size="18">Risk</text>
+</svg>
