@@ -1,0 +1,30 @@
+<svg width="1440" height="900" viewBox="0 0 1440 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1440" height="900" fill="#0B1020"/>
+  <rect x="40" y="34" width="1360" height="832" rx="32" fill="#10162C" stroke="#29324D"/>
+  <text x="94" y="108" fill="#8FDBFF" font-family="Arial, sans-serif" font-size="22" letter-spacing="6">EXECUTIVE CALLOUTS</text>
+  <text x="94" y="168" fill="#F4EAD7" font-family="Georgia, serif" font-size="46" font-weight="700">
+    <tspan x="94" dy="0">What changed. Why it matters.</tspan>
+    <tspan x="94" dy="52">What to do next.</tspan>
+  </text>
+
+  <rect x="94" y="282" width="454" height="420" rx="26" fill="#162234" stroke="#29324D"/>
+  <rect x="574" y="282" width="352" height="420" rx="26" fill="#251C35" stroke="#29324D"/>
+  <rect x="952" y="282" width="352" height="420" rx="26" fill="#301B2A" stroke="#29324D"/>
+
+  <text x="126" y="338" fill="#88D8FF" font-family="Arial, sans-serif" font-size="18" letter-spacing="4">WHAT CHANGED</text>
+  <text x="606" y="338" fill="#88D8FF" font-family="Arial, sans-serif" font-size="18" letter-spacing="4">WHY IT MATTERS</text>
+  <text x="984" y="338" fill="#88D8FF" font-family="Arial, sans-serif" font-size="18" letter-spacing="4">WHAT TO DO NEXT</text>
+
+  <text x="126" y="414" fill="#F2EBC7" font-family="Arial, sans-serif" font-size="24" font-weight="700">
+    <tspan x="126" dy="0">Forecast confidence improved after</tspan>
+    <tspan x="126" dy="32">packaging cleanup and workflow lift.</tspan>
+  </text>
+  <text x="606" y="414" fill="#F2EBC7" font-family="Arial, sans-serif" font-size="24" font-weight="700">
+    <tspan x="606" dy="0">The upside is real, but trust drag</tspan>
+    <tspan x="606" dy="32">can still erase conversion gains.</tspan>
+  </text>
+  <text x="984" y="414" fill="#F2EBC7" font-family="Arial, sans-serif" font-size="24" font-weight="700">
+    <tspan x="984" dy="0">Sequence expansion, recovery,</tspan>
+    <tspan x="984" dy="32">governance cleanup, then rollout.</tspan>
+  </text>
+</svg>

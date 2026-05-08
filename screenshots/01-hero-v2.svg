@@ -1,0 +1,47 @@
+<svg width="1440" height="900" viewBox="0 0 1440 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1440" height="900" fill="#090c16"/>
+  <rect x="40" y="34" width="1360" height="832" rx="32" fill="#0F1427" stroke="#29324D"/>
+  <text x="94" y="108" fill="#8FDBFF" font-family="Arial, sans-serif" font-size="22" letter-spacing="6">EXECUTIVE BRIEFING STUDIO</text>
+  <text x="94" y="170" fill="#F4EAD7" font-family="Georgia, serif" font-size="50" font-weight="700">
+    <tspan x="94" dy="0">Turn fragmented operating</tspan>
+    <tspan x="94" dy="56">signals into a briefing</tspan>
+    <tspan x="94" dy="56">leadership can act on.</tspan>
+  </text>
+  <text x="94" y="364" fill="#AEB9D2" font-family="Arial, sans-serif" font-size="26">
+    <tspan x="94" dy="0">Strategy-room framing for revenue, growth,</tspan>
+    <tspan x="94" dy="34">risk, AI, and operational follow-through.</tspan>
+  </text>
+
+  <rect x="94" y="448" width="286" height="208" rx="24" fill="#151B33" stroke="#29324D"/>
+  <rect x="400" y="448" width="286" height="208" rx="24" fill="#151B33" stroke="#29324D"/>
+  <rect x="706" y="448" width="286" height="208" rx="24" fill="#151B33" stroke="#29324D"/>
+  <rect x="1012" y="448" width="286" height="208" rx="24" fill="#151B33" stroke="#29324D"/>
+
+  <text x="122" y="490" fill="#88D8FF" font-family="Arial, sans-serif" font-size="18" letter-spacing="4">BRIEFING PACKS</text>
+  <text x="122" y="566" fill="#F4EAD7" font-family="Georgia, serif" font-size="62" font-weight="700">6</text>
+  <text x="122" y="620" fill="#AEB9D2" font-family="Arial, sans-serif" font-size="20">
+    <tspan x="122" dy="0">Board, product, growth,</tspan>
+    <tspan x="122" dy="28">security, and operator views.</tspan>
+  </text>
+
+  <text x="428" y="490" fill="#88D8FF" font-family="Arial, sans-serif" font-size="18" letter-spacing="4">SIGNALS TRANSLATED</text>
+  <text x="428" y="566" fill="#F4EAD7" font-family="Georgia, serif" font-size="62" font-weight="700">41</text>
+  <text x="428" y="620" fill="#AEB9D2" font-family="Arial, sans-serif" font-size="20">
+    <tspan x="428" dy="0">Operational events already</tspan>
+    <tspan x="428" dy="28">framed into executive narrative.</tspan>
+  </text>
+
+  <text x="734" y="490" fill="#88D8FF" font-family="Arial, sans-serif" font-size="18" letter-spacing="4">DECISION PRESSURE</text>
+  <text x="734" y="566" fill="#F4EAD7" font-family="Georgia, serif" font-size="62" font-weight="700">9</text>
+  <text x="734" y="620" fill="#AEB9D2" font-family="Arial, sans-serif" font-size="20">
+    <tspan x="734" dy="0">Moves likely to change revenue,</tspan>
+    <tspan x="734" dy="28">trust, spend, or roadmap posture.</tspan>
+  </text>
+
+  <text x="1040" y="490" fill="#88D8FF" font-family="Arial, sans-serif" font-size="18" letter-spacing="4">OWNERS ATTACHED</text>
+  <text x="1040" y="566" fill="#F4EAD7" font-family="Georgia, serif" font-size="62" font-weight="700">14</text>
+  <text x="1040" y="620" fill="#AEB9D2" font-family="Arial, sans-serif" font-size="20">
+    <tspan x="1040" dy="0">Follow-through owners already</tspan>
+    <tspan x="1040" dy="28">mapped to next-step actions.</tspan>
+  </text>
+</svg>

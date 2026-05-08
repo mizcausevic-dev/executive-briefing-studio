@@ -1,0 +1,47 @@
+<svg width="1440" height="900" viewBox="0 0 1440 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1440" height="900" fill="#0B1020"/>
+  <rect x="40" y="34" width="1360" height="832" rx="32" fill="#10162C" stroke="#29324D"/>
+  <text x="94" y="108" fill="#8FDBFF" font-family="Arial, sans-serif" font-size="22" letter-spacing="6">AGENDA SPINE</text>
+  <text x="94" y="168" fill="#F4EAD7" font-family="Georgia, serif" font-size="46" font-weight="700">
+    <tspan x="94" dy="0">Three briefing modules built</tspan>
+    <tspan x="94" dy="52">to guide the room.</tspan>
+  </text>
+
+  <rect x="94" y="266" width="390" height="534" rx="26" fill="#171E38" stroke="#29324D"/>
+  <rect x="526" y="266" width="410" height="534" rx="26" fill="#171E38" stroke="#29324D"/>
+  <rect x="978" y="266" width="328" height="534" rx="26" fill="#171E38" stroke="#29324D"/>
+
+  <rect x="126" y="304" width="124" height="42" rx="20" fill="#2A3353"/>
+  <rect x="558" y="304" width="118" height="42" rx="20" fill="#2A3353"/>
+  <rect x="1010" y="304" width="92" height="42" rx="20" fill="#2A3353"/>
+  <text x="160" y="331" fill="#D9E4FF" font-family="Arial, sans-serif" font-size="18">Revenue</text>
+  <text x="591" y="331" fill="#D9E4FF" font-family="Arial, sans-serif" font-size="18">Growth</text>
+  <text x="1038" y="331" fill="#D9E4FF" font-family="Arial, sans-serif" font-size="18">Risk</text>
+
+  <text x="126" y="402" fill="#F4EAD7" font-family="Georgia, serif" font-size="30" font-weight="700">
+    <tspan x="126" dy="0">Commercial pressure</tspan>
+    <tspan x="126" dy="34">is outpacing trust repair.</tspan>
+  </text>
+  <text x="126" y="492" fill="#AEB9D2" font-family="Arial, sans-serif" font-size="20">
+    <tspan x="126" dy="0">Open with expansion upside, then</tspan>
+    <tspan x="126" dy="28">show the friction that could erase it.</tspan>
+  </text>
+
+  <text x="558" y="402" fill="#F4EAD7" font-family="Georgia, serif" font-size="30" font-weight="700">
+    <tspan x="558" dy="0">Experiment lift exists,</tspan>
+    <tspan x="558" dy="34">but quality is uneven.</tspan>
+  </text>
+  <text x="558" y="492" fill="#AEB9D2" font-family="Arial, sans-serif" font-size="20">
+    <tspan x="558" dy="0">Partner-assisted motion is outperforming</tspan>
+    <tspan x="558" dy="28">paid search deeper in the funnel.</tspan>
+  </text>
+
+  <text x="1010" y="402" fill="#F4EAD7" font-family="Georgia, serif" font-size="30" font-weight="700">
+    <tspan x="1010" dy="0">Healthy accounts still</tspan>
+    <tspan x="1010" dy="34">hide trust drag.</tspan>
+  </text>
+  <text x="1010" y="492" fill="#AEB9D2" font-family="Arial, sans-serif" font-size="20">
+    <tspan x="1010" dy="0">Move support and identity risk</tspan>
+    <tspan x="1010" dy="28">into the core storyline.</tspan>
+  </text>
+</svg>
