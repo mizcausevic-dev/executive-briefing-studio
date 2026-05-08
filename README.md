@@ -59,19 +59,19 @@ More implementation notes live in [docs/architecture.md](./docs/architecture.md)
 
 ### Hero and Summary
 
-![Hero and summary](https://raw.githubusercontent.com/mizcausevic-dev/executive-briefing-studio/project/executive-briefing-studio/screenshots/01-hero.svg)
+![Hero and summary](https://raw.githubusercontent.com/mizcausevic-dev/executive-briefing-studio/project/executive-briefing-studio/screenshots/01-hero-v2.svg)
 
 ### Agenda Spine
 
-![Agenda spine](https://raw.githubusercontent.com/mizcausevic-dev/executive-briefing-studio/project/executive-briefing-studio/screenshots/02-agenda.svg)
+![Agenda spine](https://raw.githubusercontent.com/mizcausevic-dev/executive-briefing-studio/project/executive-briefing-studio/screenshots/02-agenda-v2.svg)
 
 ### Executive Callouts
 
-![Executive callouts](https://raw.githubusercontent.com/mizcausevic-dev/executive-briefing-studio/project/executive-briefing-studio/screenshots/03-callouts.svg)
+![Executive callouts](https://raw.githubusercontent.com/mizcausevic-dev/executive-briefing-studio/project/executive-briefing-studio/screenshots/03-callouts-v2.svg)
 
 ### Presentation Surface
 
-![Presentation surface](https://raw.githubusercontent.com/mizcausevic-dev/executive-briefing-studio/project/executive-briefing-studio/screenshots/04-deck.svg)
+![Presentation surface](https://raw.githubusercontent.com/mizcausevic-dev/executive-briefing-studio/project/executive-briefing-studio/screenshots/04-deck-v2.svg)
 
 ## Local Run
 
