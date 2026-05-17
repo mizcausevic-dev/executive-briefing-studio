@@ -76,7 +76,7 @@ More implementation notes live in [docs/architecture.md](./docs/architecture.md)
 ## Local Run
 
 ```powershell
-Set-Location "C:\Users\chaus\dev\repos\executive-briefing-studio"
+cd executive-briefing-studio
 npm install
 npm run dev
 ```
