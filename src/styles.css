@@ -204,6 +204,31 @@
   padding: 22px;
 }
 
+.briefing-footer {
+  margin-top: 24px;
+  padding: 20px 28px;
+  border: 1px solid rgba(132, 150, 210, 0.22);
+  border-radius: 24px;
+  background: rgba(11, 16, 32, 0.88);
+  text-align: center;
+}
+
+.footer-note {
+  margin: 0;
+  color: #aeb9d2;
+  font-size: 0.92rem;
+}
+
+.footer-note a {
+  color: #88d8ff;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.footer-note a:hover {
+  color: #f4ead7;
+}
+
 @media (max-width: 1180px) {
   .hero-layout,
   .agenda-grid,

@@ -72,6 +72,13 @@ function App() {
           ))}
         </div>
       </section>
+
+      <footer className="briefing-footer">
+        <p className="footer-note">
+          Executive Briefing Studio is part of the <a href="https://kineticgain.com/">Kinetic Gain</a> platform
+          portfolio.
+        </p>
+      </footer>
     </main>
   )
 }
