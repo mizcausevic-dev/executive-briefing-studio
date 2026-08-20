@@ -1,9 +1,17 @@
 # briefing.kineticgain.com — security response headers (Apache / Hostinger).
 #
 # Sibling of kineticgain-com-apex/.htaccess. Same rubric (kg-header-audit's
-# grading config). No inline <script> in source — script-src is 'self'.
-# style-src keeps 'unsafe-inline' for Google Fonts inline @font-face + any
-# legacy inline `style="..."` attrs.
+# grading config).
+#
+# script-src is 'self' with no 'unsafe-inline'. index.html carries two
+# <script type="application/ld+json"> blocks; those are data, not executable
+# script (the type is not a JavaScript MIME type), so they are unaffected by
+# script-src and need no allowance. There is no executable inline script.
+#
+# style-src keeps 'unsafe-inline' because Vite injects the stylesheet through
+# the module graph in dev. No webfont is fetched from any origin: this site
+# loads no Google Fonts and declares no @font-face, so font-src 'self' data:
+# is not a constraint on anything today. It stays as a floor.
 
 <IfModule mod_headers.c>
   Header always set Strict-Transport-Security "max-age=63072000; includeSubDomains; preload"

@@ -4,13 +4,40 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Executive Briefing Studio</title>
+    <meta name="theme-color" content="#0B0C10" />
+    <title>Executive Briefing Studio. Kinetic Gain</title>
+    <meta
+      name="description"
+      content="A published method for turning a period of operating signal into a briefing that produces decisions: five assembly lanes, one owner per action, and an explicit list of what was cut. Built by Kinetic Gain LLC, Boston."
+    />
+    <link rel="canonical" href="https://briefing.kineticgain.com/" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Kinetic Gain" />
+    <meta property="og:url" content="https://briefing.kineticgain.com/" />
+    <meta property="og:title" content="Executive Briefing Studio. Kinetic Gain" />
+    <meta
+      property="og:description"
+      content="Five assembly lanes, one owner per action, and a published cut list. The briefing method Kinetic Gain uses to turn operating signal into decisions."
+    />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Executive Briefing Studio. Kinetic Gain" />
+    <meta
+      name="twitter:description"
+      content="Five assembly lanes, one owner per action, and a published cut list. The briefing method Kinetic Gain uses to turn operating signal into decisions."
+    />
+
+    <!--
+      JSON-LD is a data block, not executable script: its type is not a
+      JavaScript MIME type, so `script-src 'self'` does not block it and no
+      'unsafe-inline' allowance is needed. See public/.htaccess.
+    -->
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
         "@type": "SoftwareApplication",
-        "name": "Executive Briefing",
-        "description": "React + TypeScript flagship for translating revenue, growth, risk, AI, and operational signals into premium executive briefings.",
+        "name": "Executive Briefing Studio",
+        "description": "A static presentation layer that publishes a repeatable method for converting a period of operating signal into a decision-producing executive briefing.",
         "applicationCategory": "BusinessApplication",
         "operatingSystem": "Web",
         "url": "https://briefing.kineticgain.com/",
@@ -26,9 +53,219 @@
         }
       }
     </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "url": "https://briefing.kineticgain.com/",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Is this a product you can buy, or a demonstration of a method?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "It is a demonstration of a method, published as a working interface. The value on offer is the assembly discipline, applied to a real operating cadence. The page itself is the specimen: it shows what the output looks like and what the sequencing rules are, so the approach can be judged before anyone commits to it."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Why does risk sit in the main spine instead of an appendix?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Appendix placement is a decision about attention, and attention is the scarce resource in a leadership meeting. A risk item that would change what gets approved this month belongs ahead of a revenue item that would not. Sequencing by decision impact rather than by department is the single change that does the most work."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What makes a briefing fail the exit test on a given lane?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Each lane has one test. Intake fails if a signal has no recorded source. Compression fails if a claim cannot be disagreed with. Sequencing fails if an item cannot name the decision it unblocks. Ownership fails on two owners or a missing review date. Publish fails if the cut list is empty, because something is always cut."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Why publish a list of what was left out?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A cut list is the cheapest form of institutional memory. When something surprising surfaces two months later, the first useful question is whether it was seen and deprioritised or never seen at all. Without a record, those two very different failures look identical in hindsight and get the same wrong fix."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does it integrate with the systems the signals come from?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Not in this surface. It is deliberately a static, read-only presentation layer with no backend and no data ingestion, which is why it can make a strong statement about storing nothing. Integration is an engagement concern and belongs in the systems of record, not in a public page."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Who is this for?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Operators who already have the data and still cannot get a decision out of the room: platform and engineering leaders preparing board or leadership updates, revenue and growth leads whose numbers are correct but not persuasive, and chiefs of staff who own the agenda without owning the underlying systems."
+            }
+          }
+        ]
+      }
+    </script>
   </head>
   <body>
     <div id="root"></div>
+    <!--
+      No-JavaScript fallback.
+
+      This is a client-rendered SPA, so without this block the served document
+      carries a title and an empty <div id="root"> — roughly 1.2 KB, none of it
+      readable content. Any crawler or AI fetcher that does not execute
+      JavaScript would see a page about nothing.
+
+      The text below is the same substance the React app renders, condensed. It
+      is not keyword filler and it is not different content served to crawlers.
+
+      MAINTENANCE: this duplicates copy that lives in src/data.ts and
+      src/App.tsx. Keep the two in sync when either changes. The durable fix is
+      to prerender the React tree into this document at build time via
+      react-dom/server, which would delete this block entirely; that is a build
+      change and is deliberately not bundled into this pass.
+    -->
+    <noscript>
+      <main class="briefing-shell">
+        <h1>Executive Briefing Studio</h1>
+        <p class="prose">
+          Turn fragmented operating signals into a briefing leadership can actually act on. This
+          studio is a strategy room for assembling executive updates: what changed, why it matters,
+          what to do next, and how to sequence action across revenue, growth, risk, AI, and
+          operations. Built and maintained by Kinetic Gain LLC in Boston.
+        </p>
+
+        <h2>Overview</h2>
+        <p class="prose">
+          Executive Briefing Studio is a presentation layer for a specific, repeatable job:
+          converting a period of operating signal into a briefing that produces decisions. It sits
+          downstream of the systems that already hold the numbers, and upstream of the meeting where
+          somebody has to approve, defund, escalate, or wait. Most leadership updates fail in
+          translation rather than in data collection. The metrics are correct, the slides are
+          accurate, and the room still leaves without a decision, because nothing in the deck states
+          which decision it was supposed to unblock.
+        </p>
+
+        <h2>What it consumes</h2>
+        <ul>
+          <li>Period-over-period operating metrics from finance, revenue, and product systems</li>
+          <li>Incident, support, and reliability events with timestamps and current status</li>
+          <li>Governance and access-review output: exceptions, overdue closeouts, open findings</li>
+          <li>Roadmap and delivery state, including what slipped and what the slip costs</li>
+          <li>Named owners and the escalation path each owner actually sits on</li>
+        </ul>
+
+        <h2>What it produces</h2>
+        <ul>
+          <li>A sequenced agenda spine where each module states a decision, not a status</li>
+          <li>A what changed / why it matters / what to do next block per module</li>
+          <li>An action list with one named owner and one review date per item</li>
+          <li>A presentation surface built for reading order, not dashboard density</li>
+          <li>An explicit record of what was left out of the briefing and why</li>
+        </ul>
+
+        <h2>What it does not do</h2>
+        <ul>
+          <li>It does not ingest, store, or process customer data. There is no backend, no database.</li>
+          <li>It does not generate forecasts or scores. Judgement stays with the humans in the room.</li>
+          <li>It does not replace the systems of record it draws from.</li>
+          <li>It does not produce compliance attestations of any kind.</li>
+        </ul>
+
+        <h2>Assembly method: five lanes</h2>
+        <p class="prose">
+          A briefing is assembled in a fixed order. The order matters more than any individual step,
+          because each lane exists to stop a failure the previous lane cannot catch. Skipping a lane
+          does not save time, it moves the argument later into the process, usually into the meeting
+          itself.
+        </p>
+        <ol>
+          <li>
+            <strong>Intake without editing.</strong> Collect the operating signals for the period in
+            raw form and record where each came from. Nothing is summarised or softened yet. An item
+            quietly dropped at intake never gets argued about later.
+            <em>Output: a sourced signal inventory.</em>
+          </li>
+          <li>
+            <strong>Compression to a claim.</strong> Each signal is rewritten as a single claim a
+            reader can agree or disagree with, evidence attached beneath it. A metric that moved is
+            not a claim; what the movement means for the business is.
+            <em>Output: one claim per surviving signal.</em>
+          </li>
+          <li>
+            <strong>Sequencing against decisions.</strong> Claims are ordered by the decision they
+            unblock, not by the department that produced them. This is where risk stops being an
+            appendix item.
+            <em>Output: an ordered agenda spine.</em>
+          </li>
+          <li>
+            <strong>Ownership and review dates.</strong> Every action gets exactly one named owner
+            and one review date. Two owners means nobody owns it; an action with no review date is a
+            wish.
+            <em>Output: an owned, dated action list.</em>
+          </li>
+          <li>
+            <strong>Publish with the omissions listed.</strong> The briefing ships alongside an
+            explicit list of what was cut and why. That list is what makes the next cycle honest.
+            <em>Output: the briefing and its cut list.</em>
+          </li>
+        </ol>
+
+        <h2>Verification</h2>
+        <p class="prose">
+          A page that talks about evidence discipline should be checkable itself. Each claim below can
+          be confirmed from the public repository or from this page's own network activity. None
+          describes work performed for a client, and none is a certification or attestation.
+        </p>
+        <ul>
+          <li>
+            <strong>The example briefing is illustrative, not client data.</strong> The agenda
+            modules, callouts, and slide cards are a worked example of the format. They are static
+            strings in the repository, describe no real organisation, and are not derived from any
+            engagement.
+          </li>
+          <li>
+            <strong>This surface has no backend and stores nothing.</strong> It is a statically built
+            React bundle served as files. No database, no API, no form, no input on the page.
+          </li>
+          <li>
+            <strong>No third-party script, tracker, or cookie is loaded.</strong> The page requests
+            only its own HTML, CSS, JavaScript, and favicon from this origin, which is checkable in
+            any browser network panel.
+          </li>
+          <li>
+            <strong>Security response headers ship with the repository.</strong> HSTS, a restrictive
+            content security policy, nosniff, frame-ancestors none, a locked-down permissions policy,
+            and cross-origin isolation headers are defined in public/.htaccess and deploy with the
+            site.
+          </li>
+          <li>
+            <strong>The build is verified on every change.</strong> Continuous integration runs the
+            type check, the test suite, the production build, and the linter on each push.
+          </li>
+        </ul>
+
+        <h2>Build and deploy</h2>
+        <p class="prose">
+          React 19 and TypeScript on a Vite build, rendered client-side. Two production dependencies,
+          react and react-dom, and no runtime services. Styling is plain CSS with a single palette
+          token block, no framework and no CSS-in-JS. The build output is a directory of static
+          assets synced to the host, with response headers applied at the edge. There is no server
+          process to patch and no runtime configuration to drift.
+        </p>
+
+        <p class="prose">
+          Executive Briefing Studio is part of the
+          <a href="https://kineticgain.com/">Kinetic Gain</a> platform portfolio. This surface
+          collects no data and sets no cookies.
+        </p>
+      </main>
+    </noscript>
     <script type="module" src="/src/main.tsx"></script>
   </body>
-  </html>
+</html>
